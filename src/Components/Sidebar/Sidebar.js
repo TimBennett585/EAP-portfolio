@@ -14,7 +14,7 @@ const Sidebar = () => (
   <div className="nav-bar">
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
-        <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faHome} color="#6E268C" />
       </NavLink>
       <NavLink
         exact="true"
@@ -22,7 +22,7 @@ const Sidebar = () => (
         className="about-link"
         to="/about"
       >
-        <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faUser} color="#6E268C" />
       </NavLink>
       <NavLink
         exact="true"
@@ -30,7 +30,7 @@ const Sidebar = () => (
         className="cv-link"
         to="/cv"
       >
-        <FontAwesomeIcon icon={faFileAlt} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faFileAlt} color="#6E268C" />
       </NavLink>
       <NavLink
         exact="true"
@@ -38,7 +38,7 @@ const Sidebar = () => (
         className="research-link"
         to="/research"
       >
-        <FontAwesomeIcon icon={faBook} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faBook} color="#6E268C" />
       </NavLink>
       <NavLink
         exact="true"
@@ -46,7 +46,7 @@ const Sidebar = () => (
         className="contact-link"
         to="/contact"
       >
-        <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faEnvelope} color="#6E268C" />
       </NavLink>
     </nav>
     <ul>
@@ -56,7 +56,7 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://www.linkedin.com/in/timbennett585/"
         >
-          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faLinkedin} color="#6E268C" />
         </a>
       </li>
       <li>
@@ -65,7 +65,7 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://github.com/TimBennett585"
         >
-          <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faGithub} color="#6E268C" />
         </a>
       </li>
     </ul>
